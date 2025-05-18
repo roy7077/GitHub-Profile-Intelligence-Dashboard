@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Github_Intelligence
+  data:
+    redis:
+      port: 6379
+      host: localhost
+app:
+  base-url: /api/github
+
+github:
+  base-url: https://api.github.com
+  token: {ADD_YOUR_GITHUB_ACCESS_TOKEN}
